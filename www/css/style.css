@@ -1,0 +1,157 @@
+/* Empty. Add your own CSS if you like */
+.bar.bar-stable {
+    height: 62px;
+    border: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+}
+
+.bar .title {
+    font-weight: 300;
+    font-size: 18px !important;
+    padding-left: 12px !important;
+    padding-top: 8px;
+    white-space: normal;
+    text-overflow: initial;
+    overflow: visible;
+    height: 60px;
+    line-height: 24px !important;
+  }
+
+.button.button-block, .button.button-full {
+    width: 100px;
+    border-radius: 25px;
+    margin-right: 16px;
+}
+
+.youStyle{
+    background-color: #f5eee5;
+}
+
+.tabs-striped .tabs {
+    height: 70px;
+    border-bottom: solid 4px #ffffff;
+    border-top: solid 4px #f5eee5;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.tabs .tab-item.tab-item {
+    margin-top: 12px !important;
+}
+
+.tab-item-active {
+    color: #fcb881;
+ }
+
+ ion-tabs.tabs-striped.tabs-color-active-light .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-light .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-light .tab-item.activated{
+    color: #fcb881;
+ }
+
+ .clockDateTime {
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 6px;
+    margin-top: 10px !important;
+ }
+
+ .itemMargin{
+     padding-right: 10px;
+     margin-bottom: 20px !important;
+ }
+
+ .youPmsg.left {
+    float: left;
+    background-color: #ffffff;
+    color: rgb(100, 100, 100);
+    clear: both;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+}
+
+.youPmsg.right {
+    margin: 6px;
+    clear: both;
+    float: right;
+    border-radius: 12px;
+    color: #ffffff !important;
+    background-color: #fcb881;
+    border-bottom-right-radius: 0;
+}
+
+.button.youPmsgBtn{
+    width: 100px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: #ffffff !important;
+    background-color: #fcb881;
+}
+
+.meCard{
+    font-weight: 400 !important;
+    line-height: 32px !important;
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.button.cardBtn  {
+    width: 100% !important;
+    max-height: 45px !important;
+    min-height: 45px !important;
+    border-radius: 25px;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.txtName{
+    padding-top: 20px !important;
+    font-size: 26px;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+}
+
+.txtDivider {
+    font-size: 26px;
+    font-weight: 300 !important;
+    line-height: 32px !important;
+    height: 80px !important;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.footBtn{
+    margin-bottom: 25px;
+    border: solid transparent;
+    background-size: 100% 0px;
+    background-color: transparent !important;
+}
+
+.item.imgBG {
+    height: 220px;
+    font-size: 24px;
+    color: rgb(90, 90, 90);
+    font-weight: 360 !important;
+    line-height: 32px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent !important;
+    background-image: url('../img/believe.jpg');
+}
+
+.txtArea {
+    width: 60vw;
+    height: auto;
+    padding: 15px;
+    margin-right: 10px;
+    font-weight: 300 !important;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
