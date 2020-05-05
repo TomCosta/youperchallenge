@@ -3,33 +3,32 @@
 
 ![Youper](./www/img/youper-screen.jpg)
 
-![version][version-badge] ![status][status-emprogresso]
+## The challenge is to create a complete, but simplified conversational app using Ionic (v1).
 
 ### To run this project
 #### Clone the repo
 ```javascript
-$ git clone https://github.com/TomCosta/sports.git
+$ git clone https://github.com/TomCosta/youperchallenge.git
 ``` 
-#### Entrar na pasta do projeto
+#### Go to the project folder
 ```javascript
-$ cd sports
+$ cd youperChallenge
 ``` 
-### Reinstalar as dependências
+### Install the dependencies
 ```bash
 $ npm install
 ```
-### Rodar localmente no navegador
+### Run on the browser
 ```bash
 $ ionic serve
 ```
 ### ------------------------------------------------------------------
-# Se não tiver o Ionic instalado
 
 ### Below follows the example to use this code to build an app.
 
-## How to use this template
+## If you don't have Ionic installed
 
-### With the Ionic CLI:
+### Install using the Ionic CLI:
 
 Use command below:
 
@@ -37,7 +36,7 @@ Use command below:
 $ sudo npm install -g ionic cordova
 ```
 
-Then, to run it, cd into `sports` and run:
+Then, to run it, cd into `youperChallenge` and run:
 
 ```bash
 $ ionic cordova platform add ios
@@ -50,7 +49,7 @@ $ ionic serve
 ```
 
 # Extras
-## Gerar componentes, pipes, services, etc.
+## Generate componentes, pipes, services, etc.
 ### Run 
 ```javascript
 ionic generate component `component-name` to generate a new component
@@ -61,12 +60,3 @@ ionic generate `directive|pipe|service|class|guard|interface|enum|module`
 ```
 
 Substitute ios for android if you are not on a Mac system.
-
-#
-By Tom Costa
-
-[CHANGELOG]: ./CHANGELOG.md
-[version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[status-emprogresso]: https://img.shields.io/badge/status-Em%20progresso-blueviolet
-[idioma]: https://img.shields.io/badge/idioma-Portugu%C3%AAs-800060
