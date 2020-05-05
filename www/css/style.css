@@ -20,7 +20,7 @@
   }
 
 .button.button-block, .button.button-full {
-    width: 100px;
+    width: 100px !important;
     border-radius: 25px;
     margin-right: 16px;
 }
@@ -80,8 +80,8 @@
     border-bottom-right-radius: 0;
 }
 
-.button.youPmsgBtn{
-    width: 100px;
+.button.button-block.youPmsgBtn{
+    width: 100px !important;
     font-size: 16px;
     border-radius: 20px;
     color: #ffffff !important;
@@ -124,6 +124,7 @@
 }
 
 .footBtn{
+    top: 90% !important;
     margin-bottom: 25px;
     border: solid transparent;
     background-size: 100% 0px;

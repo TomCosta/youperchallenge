@@ -5,6 +5,7 @@
   "devDependencies": {
     "@capacitor/cli": "2.0.2",
     "@ionic/v1-toolkit": "^1.0.0",
+    "cordova-res": "^0.14.0",
     "gulp": "^3.5.6",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.0",

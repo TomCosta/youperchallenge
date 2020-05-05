@@ -90,9 +90,9 @@ angular.module('starter.controllers', [])
     let div = angular.element(document.querySelector('#footBtn'));
     let btn1 = $scope.chatResp[0].options[0];
     let btn2 = $scope.chatResp[0].options[1];
-    div.append(`<button id="divBtn1" class="button button-options youPmsgBtn" onclick="callOptions('1')">${btn1.label}</button>`);
+    div.append(`<button id="divBtn1" class="button button-block youPmsgBtn" onclick="callOptions('1')">${btn1.label}</button>`);
     setTimeout(function () {
-      div.append(`<button id="divBtn2" class="button button-options youPmsgBtn" onclick="callOptions('2')">${btn2.label}</button>`);
+      div.append(`<button id="divBtn2" class="button button-block youPmsgBtn" onclick="callOptions('2')">${btn2.label}</button>`);
     }, 600);
   }
 
@@ -111,7 +111,7 @@ angular.module('starter.controllers', [])
     let textarea = angular.element(document.querySelector('#theBottom'));    
     setTimeout(function () {
       textarea.append(`<input id="text_area" rows="5" wrap="hard" maxlength="2048" class='txtArea item-borderless item-text-wrap' type='textarea' name="txt" [(ngModel)]"textA.txt">`)
-      textarea.append(`<button id="btn1" class="button button-options youPmsgBtn" onclick="sendTextArea(event)">Forward</button>`)
+      textarea.append(`<button id="btn1" class="button button-block youPmsgBtn" onclick="sendTextArea(event)">Forward</button>`)
     }, 300);
   }
 
