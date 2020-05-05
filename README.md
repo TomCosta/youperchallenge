@@ -1,9 +1,11 @@
 
 # Youper Challenge App
 
-![Youper](./www/img/youper-screen.jpg)
+![Youper](/www/img/youper-screen.jpg)
 
 ## The challenge is to create a complete, but simplified conversational app using Ionic (v1).
+
+[![Youper Challenge App](/www/img/screen-play.jpg)](https://youtu.be/7VCgRhNZufs "Click to watch the Challenge App")
 
 ### To run this project
 #### Clone the repo
